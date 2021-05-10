@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1930.302" height="130" viewBox="0 0 1930.302 127">
+  <defs>
+    <filter id="Unión_14" x="0" y="0" width="1932.302" height="127" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_31" data-name="Grupo 31" transform="translate(3914.898 -4075)">
+    <g id="Grupo_30" data-name="Grupo 30" transform="translate(-3899.898 4080)">
+      <g transform="matrix(1, 0, 0, 1, -15, -5)" filter="url(#Unión_14)">
+        <path id="Unión_14-2" data-name="Unión 14" d="M0,97V57.725H57.358C157.986,43.634,265.209.107,351.03.107c135.645,0,258.893,49.551,372.312,50.549,77.552.681,152.779-12.317,223-25.315C1018.381,12,1085.15-1.333,1143.745.107c198.577,4.879,320.948,44.252,425.9,51.356,24.907,1.686,67.775-6.344,108.322-14.374,39.01-7.726,75.871-15.451,92.525-14.524,55.3,3.074,91.522,12.542,110.382,20.151,17.492,7.057,22.562,16.262,17.652,19.354,2.6,2.91-1.322,3.352-6.7,2.9V97Z" transform="translate(15 5)" fill="rgba(46,19,92,0.99)"/>
+      </g>
+      <path id="Trazado_13" data-name="Trazado 13" d="M0,0H1899.862V37L0,19.026Z" transform="translate(0 60)" fill="#2e135c"/>
+    </g>
+  </g>
+</svg>
