@@ -70,7 +70,9 @@ function MyProjects() {
                          {/* <div style={{ height: 20 }}></div> */}
                          <div className='d-flex justify-content-center align-items-center mt-5'>
                               <h6 style={{ color: 'white', textAlign: 'center' }} className=''>All Web Projects Link: </h6>
-                              <img src={linkImage} alt="link image" style={{ marginLeft: 15, width: 30 }} className='hover' />
+                              <img src={linkImage} alt="link image" style={{ marginLeft: 15, width: 30 }} className='hover'
+                                   onClick={() => window.open('https://brandox-deploy-apps.netlify.app/')}
+                              />
                          </div>
                     </div>
                     <>
