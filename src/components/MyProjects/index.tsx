@@ -8,8 +8,7 @@ import quizAppImage from '../../images/quizz-app.png';
 import socialMediaDashboardLayourImage from '../../images/social-media-dashboard-layout.png';
 import takeNotesAppImage from '../../images/take-notes.png';
 import './style.css';
-import { relative } from 'path';
-
+import linkImage from '../../images/link.svg';
 export interface IProjectObject {
      pathImage: string,
      nameProject: string,
@@ -68,7 +67,11 @@ function MyProjects() {
                     <div className="col-12  " >
                          <div style={{ height: 40 }}></div>
                          <h3 style={{ color: '#894FEC', textAlign: 'center' }}>My Projects</h3>
-                         <div style={{ height: 20 }}></div>
+                         {/* <div style={{ height: 20 }}></div> */}
+                         <div className='d-flex justify-content-center align-items-center mt-5'>
+                              <h6 style={{ color: 'white', textAlign: 'center' }} className=''>All Web Projects Link: </h6>
+                              <img src={linkImage} alt="link image" style={{ marginLeft: 15, width: 30 }} className='hover' />
+                         </div>
                     </div>
                     <>
                          {arrayProjects.map(project => (

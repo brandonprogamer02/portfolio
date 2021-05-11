@@ -15,10 +15,10 @@ function ProjectCard({ link, nameProject, pathImage, linkYoutubeVideo }: IProps)
                <img src={pathImage} alt="chat app image" className='w-100' style={{ borderRadius: 20 }} />
                <div className='d-flex justify-content-center my-4'>
                     <img src={linkImage} alt="link image" className='hover' style={{ width: 30 }} onClick={() => window.open(link)} />
+                    {linkYoutubeVideo && <img src={youtubeImage} alt="link image" className='hover' style={{ width: 30, marginLeft: 10 }} onClick={() => window.open(linkYoutubeVideo)} />}
                     <label style={{ color: 'white', fontWeight: 'bold', fontSize: 12 }} className='mx-2'>
                          {nameProject}
                     </label>
-                    {linkYoutubeVideo && <img src={youtubeImage} alt="link image" className='hover' style={{ width: 30, marginLeft: 10 }} onClick={() => window.open(linkYoutubeVideo)} />}
                </div>
           </div>
      )
