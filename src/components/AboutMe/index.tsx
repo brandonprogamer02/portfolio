@@ -5,9 +5,9 @@ import meImage from '../../images/me.jpg'
 function AboutMe() {
 
      return (
-          <div className="row mb-5 mt-5">
+          <div className="row mb-5 mt-3" >
                <div className="col-12 " >
-                    <h3 style={{ color: '#632CC2', textAlign: 'center', marginTop: 20, fontWeight: 'bold', marginBottom: 40 }}>
+                    <h3 style={{ color: '#632CC2', textAlign: 'center', marginTop: 20, fontWeight: 'bold', marginBottom: 40 }} >
                          Who i Am?
                     </h3>
                </div>

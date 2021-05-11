@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import barImage from '../../images/bar.svg';
 import './style.css';
 
 

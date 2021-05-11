@@ -10,3 +10,7 @@
      border-right: 3px solid red;
      /* color: rgb(214, 214, 214); */
 }
+
+.hover:hover {
+     cursor: pointer;
+}

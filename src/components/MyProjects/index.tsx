@@ -13,7 +13,8 @@ import { relative } from 'path';
 export interface IProjectObject {
      pathImage: string,
      nameProject: string,
-     link: string
+     link: string,
+     linkYoutubeVideo?: string
 }
 
 
@@ -22,7 +23,8 @@ function MyProjects() {
           {
                pathImage: chatAppImage,
                nameProject: 'Real Time Chat Aplication',
-               link: 'https://brandox-chat-app-frontend.herokuapp.com/'
+               link: 'https://brandox-chat-app-frontend.herokuapp.com/',
+               linkYoutubeVideo: 'https://youtu.be/x1RH4_5huf8'
           },
           {
                pathImage: gestyAppImage,
@@ -63,17 +65,17 @@ function MyProjects() {
                </div>
                <div style={{ backgroundColor: '#2E135C' }}>
 
-                    <div className="col-12 " >
-                         <div style={{ height: 100 }}></div>
+                    <div className="col-12  " >
+                         <div style={{ height: 40 }}></div>
                          <h3 style={{ color: '#894FEC', textAlign: 'center' }}>My Projects</h3>
+                         <div style={{ height: 20 }}></div>
                     </div>
-
                     <>
                          {arrayProjects.map(project => (
-                              <div className="col-12 my-3">
+                              <div className="col-12 my-5">
                                    <div className='w-75 m-auto' >
                                         <ProjectCard pathImage={project.pathImage} nameProject={project.nameProject}
-                                             link={project.link}
+                                             link={project.link} linkYoutubeVideo={project.linkYoutubeVideo}
                                         />
                                    </div>
                               </div>
