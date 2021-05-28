@@ -21,11 +21,11 @@ function HamburguerMenu() {
                     }}
                     className='w-100 d-flex justify-content-around align-items-center'
                >
-                    <a href='#home' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Home</a>
-                    <a href='#about-me' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>About</a>
-                    <a href='#my-projects' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Projects</a>
-                    <a href='#my-skills' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Skills</a>
-                    <a href='#contact' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Contact</a>
+                    <a href='#home' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Page d'accueil</a>
+                    <a href='#about-me' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Sur moi</a>
+                    <a href='#my-projects' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Projets</a>
+                    <a href='#my-skills' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Compétences</a>
+                    <a href='#contact' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Contactez moi</a>
                </div>
           </div>
      )

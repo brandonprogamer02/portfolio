@@ -15,21 +15,21 @@ function Header() {
      }, [movil])
 
      return (
-          <div className="header row" style={{ position: 'fixed', top: 0, height: 90, zIndex: 1, width: 'calc(100% + 20px)' }}>
+          <div className="header row " style={{ position: 'fixed', top: 0, height: 90, zIndex: 1, width: 'calc(100% + 20px)' }}>
                <div className='col-7 d-flex justify-content-center align-items-center'>
                     <img src={logoImage} alt="logo image" style={{ width: 100 }} className='' />
-                    <h2 style={{ color: 'white' }}>Brandox Portfolio</h2>
+                    <h2 style={{ color: 'white' }}>Brandox Mallette</h2>
                </div>
                <div className='col-5 d-flex justify-content-end' >
                     <div style={{ display: movil ? '' : 'none' }}>
                          <HamburguerMenu />
                     </div>
-                    <div style={{ display: movil ? 'none' : '' }}>
-                         <a href='#home' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Home</a>
-                         <a href='#about-me' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>About</a>
-                         <a href='#my-projects' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Projects</a>
-                         <a href='#my-skills' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Skills</a>
-                         <a href='#contact' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Contact</a>
+                    <div style={{ display: movil ? 'none' : '' }} className=''>
+                         <a href='#home' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Page d'accueil</a>
+                         <a href='#about-me' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Sur moi</a>
+                         <a href='#my-projects' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>Projets</a>
+                         <a href='#my-skills' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>compétences</a>
+                         <a href='#contact' className="mx-2 fw-bold" style={{ color: 'white', textDecoration: 'none' }}>information de contact</a>
                     </div>
                </div>
           </div>

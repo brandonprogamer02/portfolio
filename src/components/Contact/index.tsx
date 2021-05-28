@@ -17,11 +17,11 @@ function Contact() {
                <div className='py-4 row' style={{ backgroundColor: '#2E135C' }}>
 
                     <div className='' style={{ height: 100 }}></div>
-                    <h4 style={{ textAlign: 'center', fontWeight: 'bold', color: '#894FEC' }}>Contact Me</h4>
+                    <h4 style={{ textAlign: 'center', fontWeight: 'bold', color: '#894FEC' }}>Contactez moi</h4>
                     <div className="col-12 col-md-6  my-5  d-flex justify-content-center align-items-center" >
                          <img src={personaTelephoneImage} alt='personal telephone image' className='w-25' />
                          <div className='d-flex flex-column flex-wrap justify-content-around align-items-center'>
-                              <label style={{ color: 'white', marginBottom: 20 }}>Personal Number</label>
+                              <label style={{ color: 'white', marginBottom: 20 }}>Numéro personnel</label>
                               <label style={{ color: 'white' }}>8497392210</label>
                          </div>
                     </div>
@@ -29,7 +29,7 @@ function Contact() {
                          <div className=' d-flex justify-content-center' style={{}}>
                               <img src={locationImage} alt='personal telephone image' style={{ width: '30%' }} />
                               <div className='d-flex flex-column flex-wrap justify-content-around align-items-center'>
-                                   <label style={{ color: 'white', marginBottom: 20 }}>Address</label>
+                                   <label style={{ color: 'white', marginBottom: 20 }}>Adresse</label>
                                    <div className="d-flex flex-column align-items-center" style={{ width: '100%' }}>
                                         <label style={{ color: 'white' }} className='text-center'>Av. 25 de Febrero, Sector Villa Olimpica</label>
                                         <label style={{ color: 'white', marginTop: 6 }}>
@@ -46,7 +46,7 @@ function Contact() {
                                    className='d-flex flex-column flex-wrap justify-content-around align-items-center'
                                    style={{ marginLeft: 15 }}
                               >
-                                   <label style={{ color: 'white' }}>Home Phone</label>
+                                   <label style={{ color: 'white' }}>Numéro de maison</label>
                                    <label style={{ color: 'white' }}>8095915207</label>
                               </div>
                          </div>
@@ -55,7 +55,7 @@ function Contact() {
                          <div className=' d-flex  justify-content-center mb-5'>
                               <img src={emailImage} alt='personal telephone image' style={{ width: '30%' }} className='' />
                               <div className='d-flex flex-column flex-wrap justify-content-center align-items-center'>
-                                   <label style={{ color: 'white', marginBottom: 20 }}>Mail</label>
+                                   <label style={{ color: 'white', marginBottom: 20 }}>E-mail</label>
                                    <div className="d-flex flex-column align-items-center">
                                         <label style={{ color: 'white' }}>brandonprogamer02@gmail.com</label>
                                         <label style={{ color: 'white' }}>20197875@itla.edu.do</label>

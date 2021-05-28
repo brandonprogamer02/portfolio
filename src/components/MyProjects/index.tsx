@@ -21,7 +21,7 @@ function MyProjects() {
      const arrayProjects: Array<IProjectObject> = [
           {
                pathImage: chatAppImage,
-               nameProject: 'Real Time Chat Aplication',
+               nameProject: 'Application de chat en temps réel',
                link: 'https://brandox-chat-app-frontend.herokuapp.com/',
                linkYoutubeVideo: 'https://youtu.be/x1RH4_5huf8'
           },
@@ -32,25 +32,25 @@ function MyProjects() {
           },
           {
                pathImage: minerdAppImage,
-               nameProject: 'Minerd Teachers Aplication',
+               nameProject: 'Application des enseignants Minerd',
                link: 'https://minerd-teacher-app.netlify.app/'
           }
           ,
           {
                pathImage: quizAppImage,
-               nameProject: 'Quizzes Aplication',
+               nameProject: 'Application de quiz',
                link: 'https://brandox-quizz-app.netlify.app/'
           }
           ,
           {
                pathImage: socialMediaDashboardLayourImage,
-               nameProject: 'Social Media Dashboard Layout',
+               nameProject: 'Disposition du tableau de bord des médias sociaux',
                link: 'https://layouts-responsive.netlify.app/'
           }
           ,
           {
                pathImage: takeNotesAppImage,
-               nameProject: 'Take Notes Aplication',
+               nameProject: "Prendre des notes d'application",
                link: 'https://brandox-deploy-apps.netlify.app/notes-project/index.html'
           }
      ];
@@ -66,10 +66,10 @@ function MyProjects() {
 
                     <div className="col-12  " >
                          <div style={{ height: 40 }}></div>
-                         <h3 style={{ color: '#894FEC', textAlign: 'center' }}>My Projects</h3>
+                         <h3 style={{ color: '#894FEC', textAlign: 'center' }}>Mes projets</h3>
                          {/* <div style={{ height: 20 }}></div> */}
                          <div className='d-flex justify-content-center align-items-center mt-5'>
-                              <h6 style={{ color: 'white', textAlign: 'center' }} className=''>All Web Projects Link: </h6>
+                              <h6 style={{ color: 'white', textAlign: 'center' }} className=''>Lien tous les projets Web </h6>
                               <img src={linkImage} alt="link image" style={{ marginLeft: 15, width: 30 }} className='hover'
                                    onClick={() => window.open('https://brandox-deploy-apps.netlify.app/')}
                               />

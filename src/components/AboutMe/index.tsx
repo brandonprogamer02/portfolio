@@ -8,7 +8,7 @@ function AboutMe() {
           <div className="row mb-5 mt-3" >
                <div className="col-12 " >
                     <h3 style={{ color: '#632CC2', textAlign: 'center', marginTop: 20, fontWeight: 'bold', marginBottom: 40 }} >
-                         Who i Am?
+                         Qui suis-je?
                     </h3>
                </div>
                <div className="col-12 col-md-3 ">
@@ -19,12 +19,12 @@ function AboutMe() {
                <div className="col-12 col-md-9">
                     <div style={{ padding: 10 }}>
                          <p style={{ fontSize: 20 }}>
-                              My name is Brandon Saul Fernandez Mejia, I am a young and passionate software developer for 1 year and a half, I really like being able to develop effective, functional and presentable solutions for the different problems of daily life as well as being able to facilitate myself and others life through my knowledge in the world of software.
+                              Je m'appelle Brandon Saul Fernandez Mejia, je suis un développeur logiciel jeune et passionné depuis 1 an et demi, j'aime beaucoup pouvoir développer des solutions efficaces, fonctionnelles et présentables pour les différents problèmes de la vie quotidienne ainsi que pouvoir faciliter moi-même et les autres vivent grâce à mes connaissances dans le monde des logiciels.
                                    </p>
                          <p style={{ fontSize: 20 }}>
-                              I am also a very curious person who loves to try different things and always be updated with what surrounds me. in addition to being always active and open to consider and learn new technologies.
+                              Je suis aussi une personne très curieuse qui aime essayer différentes choses et être toujours à jour avec ce qui m'entoure. en plus d'être toujours actif et ouvert à considérer et à apprendre les nouvelles technologies.
                                    </p>
-                         <p style={{ fontSize: 20 }}>Student of the Technological Institute of the Americas (ITLA).</p>
+                         <p style={{ fontSize: 20 }}>Étudiant de l'Institut technologique des Amériques (ITLA).</p>
                     </div>
                </div>
 
