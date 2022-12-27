@@ -11,26 +11,12 @@ import './style.css';
 interface IProps extends IProjectObject { };
 
 function ProjectCard({ link, nameProject, pathImages, linkYoutubeVideo }: IProps) {
-     // const [imageToModal, setImageToModal] = useState(pathImages.length > 0 ? pathImages[0] : null);
      if (!pathImages.length) {
           <div>You must pass an image</div>
      }
 
-     // const closeModal = () => setImageToModal(null);
-
      return (
           <div className='' style={{ transform: 'scale(1)', width: '100%' }}>
-               {/* <Modal
-                    isOpen={!!imageToModal}
-                    onRequestClose={closeModal}
-                    contentLabel="Titulo"
-                    className={'mt-5'}
-                    style={{ content: { zIndex: 2 } }}
-                    shouldCloseOnEsc
-
-               >
-                    <div style={{ marginTop: 100 }}>fdgfdgdfdsgfddfgdfdfgfdggfgfdgdfdf fdgfdgfdgdfgfdgdf</div>
-               </Modal> */}
                <div className='d-flex justify-content-center my-4'>
                     {link && <img src={linkImage} alt="link" className='hover' style={{ width: 30 }} onClick={() => window.open(link)} />}
 

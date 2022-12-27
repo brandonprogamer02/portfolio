@@ -3,9 +3,9 @@ import darkBorderImage from '../../images/borderDark.svg';
 import ProjectCard from './ProjectCard';
 import chatAppImage from '../../images/chat-app.png';
 import gestyAppImage from '../../images/gesty-app.png';
-import minerdAppImage from '../../images/minerd-app.png';
+// import minerdAppImage from '../../images/minerd-app.png';
 import quizAppImage from '../../images/quizz-app.png';
-import socialMediaDashboardLayourImage from '../../images/social-media-dashboard-layout.png';
+// import socialMediaDashboardLayourImage from '../../images/social-media-dashboard-layout.png';
 import takeNotesAppImage from '../../images/take-notes.png';
 import medsImage from '../../images/meds.png';
 import viableImage from '../../images/viable.jpeg';
@@ -93,17 +93,16 @@ function MyProjects() {
                nameProject: 'Quizzes Aplication',
                link: 'https://brandox-quizz-app.netlify.app/'
           }
-          ,
-          {
-               pathImages: [minerdAppImage],
-               nameProject: 'Minerd Teachers Aplication',
-               link: 'https://minerd-teacher-app.netlify.app/'
-          },
-          {
-               pathImages: [socialMediaDashboardLayourImage],
-               nameProject: 'Social Media Dashboard Layout',
-               link: 'https://layouts-responsive.netlify.app/'
-          }
+          // {
+          //      pathImages: [minerdAppImage],
+          //      nameProject: 'Minerd Teachers Aplication',
+          //      link: 'https://minerd-teacher-app.netlify.app/'
+          // },
+          // {
+          //      pathImages: [socialMediaDashboardLayourImage],
+          //      nameProject: 'Social Media Dashboard Layout',
+          //      link: 'https://layouts-responsive.netlify.app/'
+          // }
           ,
           {
                pathImages: [takeNotesAppImage],
