@@ -7,7 +7,7 @@ function Home() {
           <div className="row" id='home'>
                <div className="col-12" >
 
-                    <img src={homeBackgroundImage} className=" border" alt="home background image"
+                    <img src={homeBackgroundImage} className="" alt="home background"
                          style={{ top: -10, position: 'relative', right: 20, width: 'calc(100% + 50px)' }}
                     />
                </div>

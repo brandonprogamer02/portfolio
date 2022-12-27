@@ -1,7 +1,6 @@
 import React from 'react';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
-import HamburguerMenu from './components/Header/HamburgerMenu';
 import Header from './components/Header/index';
 import Home from './components/Home';
 import MyProjects from './components/MyProjects';

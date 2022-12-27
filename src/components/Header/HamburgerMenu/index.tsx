@@ -9,7 +9,7 @@ function HamburguerMenu() {
      return (
           <div className=''>
                <img
-                    src={sandwitchMenuImage} alt=" sandwitch menu image" width='60%'
+                    src={sandwitchMenuImage} alt=" sandwitch menu" width='60%'
                     style={{ position: 'relative', right: -50 }}
                     onClick={() => setActive(!active)}
                />

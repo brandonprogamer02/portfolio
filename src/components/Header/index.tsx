@@ -5,7 +5,7 @@ import HamburguerMenu from './HamburgerMenu';
 
 function Header() {
      const [movil, setMovil] = useState(window.screen.width < 768);
-     const [x, forceUpdate] = useReducer(x => x + 1, 0);
+     const [, forceUpdate] = useReducer(x => x + 1, 0);
 
      window.onresize = () => {
           setMovil(window.screen.width < 768);
@@ -17,7 +17,7 @@ function Header() {
      return (
           <div className="header row" style={{ position: 'fixed', top: 0, height: 90, zIndex: 1, width: 'calc(100% + 20px)' }}>
                <div className='col-7 d-flex justify-content-center align-items-center'>
-                    <img src={logoImage} alt="logo image" style={{ width: 100 }} className='' />
+                    <img src={logoImage} alt="logo" style={{ width: 100 }} className='' />
                     <h2 style={{ color: 'white' }}>Brandox Portfolio</h2>
                </div>
                <div className='col-5 d-flex justify-content-end' >

@@ -13,8 +13,7 @@ function MySkills() {
 
                     <img src={lampImage} alt="lamp" style={{ width: 50, marginRight: 10, marginBottom: 20 }} className='' />
                     <div>
-                         <p className=''>I dominate both the backend and frontend areas, but I specialize more in the frontend area with these technologies.</p>
-                         <p className=''>I also like to use the adobe xd tool a lot, to make the mackup of my applications. I even did the design of this portfolio in adobe xd. 😊</p>
+                         <p className=''>This is the tecnologies i dominate. I can do fullstack apps</p>
                     </div>
 
                </div>

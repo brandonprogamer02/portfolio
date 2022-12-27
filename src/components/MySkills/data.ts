@@ -33,7 +33,7 @@ export const data: If = {
 
           },
           {
-               technology: 'Redux',
+               technology: 'Redux & Redux Toolkit',
                porcentual: 89
 
           },
@@ -43,10 +43,16 @@ export const data: If = {
 
           },
           {
-               technology: 'Bootstrap',
+               technology: 'Nextjs',
                porcentual: 85
 
-          }],
+          },
+          {
+               technology: 'Mui, tailwindcss, Bootstrap & other css frameworks',
+               porcentual: 85
+
+          }
+     ],
      backend: [
           {
                technology: 'NodeJs',
@@ -61,7 +67,7 @@ export const data: If = {
                porcentual: 85
           },
           {
-               technology: 'SQL',
+               technology: 'PosgreSQL',
                porcentual: 90
           },
           {
@@ -69,11 +75,11 @@ export const data: If = {
                porcentual: 88
           },
           {
-               technology: 'Java',
+               technology: 'Nestjs',
                porcentual: 94
           },
           {
-               technology: 'Json Web Tocken',
+               technology: 'Json Web Token',
                porcentual: 87
           }
      ],
