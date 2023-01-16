@@ -33,6 +33,7 @@ export interface IProjectObject {
      nameProject: string,
      link?: string,
      linkYoutubeVideo?: string
+     description?: string;
 }
 
 
@@ -42,56 +43,66 @@ function MyProjects() {
                pathImages: [barberyApp1Image, barberyApp2Image, barberyApp3Image],
                nameProject: 'Barbery App by Brandox02',
                link: 'https://play.google.com/store/apps/details?id=com.brandox02.app',
+               description: 'Brandox barbery app, es un proyecto que pretende agilizar el servicio brindado por los barberos a sus clientes, ofreciéndoles la posibilidad de poder virtualizar primordialmente el proceso de agenda de citas de sus clientes, fácilmente en una aplicación intuitiva, sencilla y móvil. También en la misma el barbero puede configurar los cortes de pelo que brinda como servicios, con su duración, precio y demás. Como también configurar los horarios en los que esta disponible semanalmente. Por otra parte el usuario es libre de acceder a todos estos módulos para fines de consumir su información y agendar sus propias citas.'
           },
           {
                pathImages: [gobDoPortal1Image, gobDoPortal2Image, gobDoPortal3Image],
                nameProject: 'Gob.do Portal',
                link: 'https://www.gob.do/',
+               description: 'gob.do es un proyecto de gran escala del gobierno dominicano que pretende erradicar la burocracia, trámites y papeles de los servicios del estado, esto lo logra virtualizando muchos procesos tediosos que son totalmente presenciales para así poder llevar la comodidad a los ciudadanos. Este cuenta con muchos módulos de manejo de servicios transaccionales, interactivos e informativos; manejo de instituciones, manejo de las solicitudes hechas por los ciudadanos a los servicios, manejos de las reclamaciones hechas por los ciudadanos a los servicios. Manejo de formularios personalizados para cada servicio, manejo de máscaras para los campos de dichos formularios, manejo de reglas para los campos de los formularios anteriormente mencionados. Entre otras muchas funcionalidades más. Este conta principalmente de dos aplicativos el backoffice y el portal. En este caso este es el portal.'
           },
           {
                pathImages: [gobDoBackoffice1Image, gobDoBackoffice2Image, gobDoBackoffice3Image],
                nameProject: 'Gob.do Backoffice',
                link: 'https://gob-do-backoffice.www.gob.do',
+               description: 'gob.do es un proyecto de gran escala del gobierno dominicano que pretende erradicar la burocracia, trámites y papeles de los servicios del estado, esto lo logra virtualizando muchos procesos tediosos que son totalmente presenciales para así poder llevar la comodidad a los ciudadanos. Este cuenta con muchos módulos de manejo de servicios transaccionales, interactivos e informativos; manejo de instituciones, manejo de las solicitudes hechas por los ciudadanos a los servicios, manejos de las reclamaciones hechas por los ciudadanos a los servicios. Manejo de formularios personalizados para cada servicio, manejo de máscaras para los campos de dichos formularios, manejo de reglas para los campos de los formularios anteriormente mencionados. Entre otras muchas funcionalidades más. Este conta principalmente de dos aplicativos el backoffice y el portal. En este caso este es el backoffice.'
           },
           {
                pathImages: [pacomePortal1Image, pacomePortal2Image, pacomePortal3Image],
                nameProject: 'Pacome Portal',
                link: '',
+               description: 'Pacome es un sistema de pedido de comidas el cual cuenta con funcionalidades tales como creación de menu personalizados de distintas indoles para platos del dia, panaderia, en fin tantas direcciones culinarias como se desee crear porque es configurable; manejo de órdenes, pedidos, roles entre usuarios empleados, empresariales, y administradores, configuración de parámetros generales como tiempo para poder ordenar diario, tiempo para que una orden sea confirmada después que se pide, entre otros parámetros; así como muchas otras funcionalidades y detalles más. Este consta de dos aplicativos el backoffice y el porta. En este caso este es el Portal'
           },
           {
                pathImages: [pacomeBackoffice1Image, pacomeBackoffice2Image, pacomeBackoffice3Image],
                nameProject: 'Pacome Backoffice',
                link: '',
+               description: 'Pacome es un sistema de pedido de comidas el cual cuenta con funcionalidades tales como creación de menu personalizados de distintas indoles para platos del dia, panaderia, en fin tantas direcciones culinarias como se desee crear porque es configurable; manejo de órdenes, pedidos, roles entre usuarios empleados, empresariales, y administradores, configuración de parámetros generales como tiempo para poder ordenar diario, tiempo para que una orden sea confirmada después que se pide, entre otros parámetros; así como muchas otras funcionalidades y detalles más. Este consta de dos aplicativos el backoffice y el porta. En este caso este es el Backoffice.'
           },
           {
                pathImages: [medsImage],
                nameProject: 'Meds Gravitas System',
                link: 'https://test.meds.com.do/',
+               description: 'MEDS que es el sistema que utiliza la empresa del mismo nombre, este es un sistema médico en el que puedes agendar citas médicas de ars o de pacientes no asegurados, cuenta con un punto de ventas donde se pueden procesar los productos/procedimientos/análisis que el paciente desea elaborarse, también cuenta con módulos de contabilidad para el manejo de los resultados financieros que genera la empres. Así como también los módulos de órdenes de compra e inventario que fui yo que los desarrollé en gran medida.'
           },
           {
                pathImages: [dhnImage],
                nameProject: 'Digital Health Network(DHN) System',
                link: 'https://app.dhn.com.do/',
+               description: 'DHN es un sistema para la empresa del mismo nombre, está destinado para ser un intermediario entre las farmacias y las ars, de manera que procesa las autorizaciones & pre-autorizaciones de las distintas entidades médicas para así poderle brindar cierta seguridad y congruencia de transacciones a las ars, asi como tambien posee servicios de auditoria para las mismas.'
           },
           {
                pathImages: [viableImage],
                nameProject: 'Viable System',
+               description: 'VIABLE es el sistema para la empresa del mismo nombre, su principal función es la de poder expender productos, procesar autorizaciones de manera central, llevar las funciones de manejo de inventario, stock de productos, transferencias de productos entre sucursales, manejo de inventario de productos en mal estado, manejo de inventario de productos vencidos, suplidores, proveedores, así como también los módulos de contabilidad.'
           },
           {
                pathImages: [chatAppImage],
                nameProject: 'Real Time Chat Aplication',
                link: 'https://brandox-chat-app-frontend.herokuapp.com/',
-               linkYoutubeVideo: 'https://youtu.be/x1RH4_5huf8'
+               linkYoutubeVideo: 'https://youtu.be/x1RH4_5huf8',
+               description: 'Este es una aplicación simple de mensajeria en tiempo real la cual sirve para comunicar personas desde distintos dispositivos electrónicos.'
           },
           {
                pathImages: [gestyAppImage],
                nameProject: 'Gesty Aplication',
-               link: 'https://gesty-app.netlify.app/'
+               link: 'https://gesty-app.netlify.app/',
+               description: 'GestyApp es una aplicación para calcular el indice académico cuatrimestral e histórico de los estudiantes de la carrera de software de ITLA.'
           },
           {
                pathImages: [quizAppImage],
                nameProject: 'Quizzes Aplication',
-               link: 'https://brandox-quizz-app.netlify.app/'
+               link: 'https://brandox-quizz-app.netlify.app/',
           }
           // {
           //      pathImages: [minerdAppImage],
@@ -140,6 +151,7 @@ function MyProjects() {
                                              nameProject={project.nameProject}
                                              link={project.link}
                                              linkYoutubeVideo={project.linkYoutubeVideo}
+                                             description={project.description}
                                         />
                                    </div>
                               </div>
