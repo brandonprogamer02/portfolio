@@ -52,7 +52,7 @@ export const data: If = {
                porcentual: 85
 
           }
-     ],
+          ],
      backend: [
           {
                technology: 'NodeJs',
@@ -95,6 +95,10 @@ export const data: If = {
           {
                technology: 'Netlify',
                porcentual: 87
+          },
+          {
+               technology: 'Docker',
+               porcentual: 80
           }
      ]
 }

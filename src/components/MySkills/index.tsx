@@ -13,7 +13,7 @@ function MySkills() {
 
                     <img src={lampImage} alt="lamp" style={{ width: 50, marginRight: 10, marginBottom: 20 }} className='' />
                     <div>
-                         <p className=''>This is the tecnologies i dominate. I can do fullstack apps</p>
+                         <p className=''>These are the cutting-edge technologies and tools that i have expertise in</p>
                     </div>
 
                </div>

@@ -1,12 +1,12 @@
 import React from 'react';
 import darkBorderImage from '../../images/borderDark.svg';
 import ProjectCard from './ProjectCard';
-import chatAppImage from '../../images/chat-app.png';
-import gestyAppImage from '../../images/gesty-app.png';
+// import chatAppImage from '../../images/chat-app.png';
+// import gestyAppImage from '../../images/gesty-app.png';
 // import minerdAppImage from '../../images/minerd-app.png';
-import quizAppImage from '../../images/quizz-app.png';
+// import quizAppImage from '../../images/quizz-app.png';
 // import socialMediaDashboardLayourImage from '../../images/social-media-dashboard-layout.png';
-import takeNotesAppImage from '../../images/take-notes.png';
+// import takeNotesAppImage from '../../images/take-notes.png';
 import medsImage from '../../images/meds.png';
 import viableImage from '../../images/viable.jpeg';
 import dhnImage from '../../images/dhn.jpeg';
@@ -43,67 +43,60 @@ function MyProjects() {
                pathImages: [barberyApp1Image, barberyApp2Image, barberyApp3Image],
                nameProject: 'Barbery App by Brandox02',
                link: 'https://play.google.com/store/apps/details?id=com.brandox02.app',
-               description: 'Brandox barbery app, es un proyecto que pretende agilizar el servicio brindado por los barberos a sus clientes, ofreciéndoles la posibilidad de poder virtualizar primordialmente el proceso de agenda de citas de sus clientes, fácilmente en una aplicación intuitiva, sencilla y móvil. También en la misma el barbero puede configurar los cortes de pelo que brinda como servicios, con su duración, precio y demás. Como también configurar los horarios en los que esta disponible semanalmente. Por otra parte el usuario es libre de acceder a todos estos módulos para fines de consumir su información y agendar sus propias citas.'
+               description: `The Brandox Barbery app is designed to enhance the services offered by barbers by simplifying the appointment scheduling process for their clients. It offers a user-friendly mobile application that enables virtual appointment scheduling. Barbers can set up the services they offer, specifying their duration and price, as well as their weekly availability. Users have the freedom to access these features, allowing them to view information and book their appointments conveniently.`
           },
           {
-               pathImages: [gobDoPortal1Image, gobDoPortal2Image, gobDoPortal3Image],
-               nameProject: 'Gob.do Portal',
+               pathImages: [gobDoPortal1Image, gobDoPortal2Image, gobDoPortal3Image, gobDoBackoffice1Image, gobDoBackoffice2Image, gobDoBackoffice3Image],
+               nameProject: 'Gob.do',
                link: 'https://www.gob.do/',
-               description: 'gob.do es un proyecto de gran escala del gobierno dominicano que pretende erradicar la burocracia, trámites y papeles de los servicios del estado, esto lo logra virtualizando muchos procesos tediosos que son totalmente presenciales para así poder llevar la comodidad a los ciudadanos. Este cuenta con muchos módulos de manejo de servicios transaccionales, interactivos e informativos; manejo de instituciones, manejo de las solicitudes hechas por los ciudadanos a los servicios, manejos de las reclamaciones hechas por los ciudadanos a los servicios. Manejo de formularios personalizados para cada servicio, manejo de máscaras para los campos de dichos formularios, manejo de reglas para los campos de los formularios anteriormente mencionados. Entre otras muchas funcionalidades más. Este conta principalmente de dos aplicativos el backoffice y el portal. En este caso este es el portal.'
+               description: `
+               Gob.do is a large-scale project by the Dominican government aimed at eliminating bureaucracy, paperwork, and in-person processes in state services. It achieves this by virtualizing many tedious procedures to provide convenience to citizens. The project includes various modules for handling transactional, interactive, and informational services, managing institutions, citizen requests, and complaints. It also offers personalized forms for each service, field masks, and rules for form fields, among other functionalities. "Gob.do" primarily consists of two applications: the backoffice and the portal. `
           },
           {
-               pathImages: [gobDoBackoffice1Image, gobDoBackoffice2Image, gobDoBackoffice3Image],
-               nameProject: 'Gob.do Backoffice',
-               link: 'https://gob-do-backoffice.www.gob.do',
-               description: 'gob.do es un proyecto de gran escala del gobierno dominicano que pretende erradicar la burocracia, trámites y papeles de los servicios del estado, esto lo logra virtualizando muchos procesos tediosos que son totalmente presenciales para así poder llevar la comodidad a los ciudadanos. Este cuenta con muchos módulos de manejo de servicios transaccionales, interactivos e informativos; manejo de instituciones, manejo de las solicitudes hechas por los ciudadanos a los servicios, manejos de las reclamaciones hechas por los ciudadanos a los servicios. Manejo de formularios personalizados para cada servicio, manejo de máscaras para los campos de dichos formularios, manejo de reglas para los campos de los formularios anteriormente mencionados. Entre otras muchas funcionalidades más. Este conta principalmente de dos aplicativos el backoffice y el portal. En este caso este es el backoffice.'
-          },
-          {
-               pathImages: [pacomePortal1Image, pacomePortal2Image, pacomePortal3Image],
-               nameProject: 'Pacome Portal',
+               pathImages: [pacomePortal1Image, pacomePortal2Image, pacomePortal3Image, pacomeBackoffice1Image, pacomeBackoffice2Image, pacomeBackoffice3Image],
+               nameProject: 'Pacome',
                link: '',
-               description: 'Pacome es un sistema de pedido de comidas el cual cuenta con funcionalidades tales como creación de menu personalizados de distintas indoles para platos del dia, panaderia, en fin tantas direcciones culinarias como se desee crear porque es configurable; manejo de órdenes, pedidos, roles entre usuarios empleados, empresariales, y administradores, configuración de parámetros generales como tiempo para poder ordenar diario, tiempo para que una orden sea confirmada después que se pide, entre otros parámetros; así como muchas otras funcionalidades y detalles más. Este consta de dos aplicativos el backoffice y el porta. En este caso este es el Portal'
+               description: `
+
+
+Pacome is a food ordering system that offers features like creating personalized menus for various types of dishes, including daily specials, bakery items, and more, with the flexibility to configure different culinary directions. It also manages orders, roles for different types of users (employees, businesses, and administrators), and general parameters like daily order time limits and order confirmation time. The system consists of two applications: the backoffice and the portal.`
           },
-          {
-               pathImages: [pacomeBackoffice1Image, pacomeBackoffice2Image, pacomeBackoffice3Image],
-               nameProject: 'Pacome Backoffice',
-               link: '',
-               description: 'Pacome es un sistema de pedido de comidas el cual cuenta con funcionalidades tales como creación de menu personalizados de distintas indoles para platos del dia, panaderia, en fin tantas direcciones culinarias como se desee crear porque es configurable; manejo de órdenes, pedidos, roles entre usuarios empleados, empresariales, y administradores, configuración de parámetros generales como tiempo para poder ordenar diario, tiempo para que una orden sea confirmada después que se pide, entre otros parámetros; así como muchas otras funcionalidades y detalles más. Este consta de dos aplicativos el backoffice y el porta. En este caso este es el Backoffice.'
-          },
+
           {
                pathImages: [medsImage],
                nameProject: 'Meds Gravitas System',
                link: 'https://test.meds.com.do/',
-               description: 'MEDS que es el sistema que utiliza la empresa del mismo nombre, este es un sistema médico en el que puedes agendar citas médicas de ars o de pacientes no asegurados, cuenta con un punto de ventas donde se pueden procesar los productos/procedimientos/análisis que el paciente desea elaborarse, también cuenta con módulos de contabilidad para el manejo de los resultados financieros que genera la empres. Así como también los módulos de órdenes de compra e inventario que fui yo que los desarrollé en gran medida.'
+               description: `MEDS, which is used by the company of the same name, is a medical system that allows you to schedule medical appointments for both insured and uninsured patients. It includes a point of sale system for processing products, procedures, and analyses that patients wish to undergo. Additionally, it features accounting modules for managing the company's financial results. The system also includes modules for purchase orders and inventory, which were significantly developed by the author.`
           },
           {
                pathImages: [dhnImage],
                nameProject: 'Digital Health Network(DHN) System',
                link: 'https://app.dhn.com.do/',
-               description: 'DHN es un sistema para la empresa del mismo nombre, está destinado para ser un intermediario entre las farmacias y las ars, de manera que procesa las autorizaciones & pre-autorizaciones de las distintas entidades médicas para así poderle brindar cierta seguridad y congruencia de transacciones a las ars, asi como tambien posee servicios de auditoria para las mismas.'
+               description: `DHN is a system developed for a company with the same name. It serves as an intermediary between pharmacies and health insurance providers (ARS). The system is designed to process authorizations and pre-authorizations from various medical entities, ensuring the security and consistency of transactions for ARS. It also offers auditing services for these entities.`
           },
           {
                pathImages: [viableImage],
                nameProject: 'Viable System',
-               description: 'VIABLE es el sistema para la empresa del mismo nombre, su principal función es la de poder expender productos, procesar autorizaciones de manera central, llevar las funciones de manejo de inventario, stock de productos, transferencias de productos entre sucursales, manejo de inventario de productos en mal estado, manejo de inventario de productos vencidos, suplidores, proveedores, así como también los módulos de contabilidad.'
+               description: `VIABLE is a system developed for the company with the same name. Its primary function is to facilitate product sales and process authorizations centrally. It also handles inventory management, product stock, product transfers between branches, management of damaged and expired products, suppliers, and accounting modules.`
           },
-          {
-               pathImages: [chatAppImage],
-               nameProject: 'Real Time Chat Aplication',
-               link: 'https://brandox-chat-app-frontend.herokuapp.com/',
-               linkYoutubeVideo: 'https://youtu.be/x1RH4_5huf8',
-               description: 'Este es una aplicación simple de mensajeria en tiempo real la cual sirve para comunicar personas desde distintos dispositivos electrónicos.'
-          },
-          {
-               pathImages: [gestyAppImage],
-               nameProject: 'Gesty Aplication',
-               link: 'https://gesty-app.netlify.app/',
-               description: 'GestyApp es una aplicación para calcular el indice académico cuatrimestral e histórico de los estudiantes de la carrera de software de ITLA.'
-          },
-          {
-               pathImages: [quizAppImage],
-               nameProject: 'Quizzes Aplication',
-               link: 'https://brandox-quizz-app.netlify.app/',
-          }
+          // {
+          //      pathImages: [chatAppImage],
+          //      nameProject: 'Real Time Chat Aplication',
+          //      link: 'https://brandox-chat-app-frontend.herokuapp.com/',
+          //      linkYoutubeVideo: 'https://youtu.be/x1RH4_5huf8',
+          //      description: 'Este es una aplicación simple de mensajeria en tiempo real la cual sirve para comunicar personas desde distintos dispositivos electrónicos.'
+          // },
+          // {
+          //      pathImages: [gestyAppImage],
+          //      nameProject: 'Gesty Aplication',
+          //      link: 'https://gesty-app.netlify.app/',
+          //      description: 'GestyApp es una aplicación para calcular el indice académico cuatrimestral e histórico de los estudiantes de la carrera de software de ITLA.'
+          // },
+          // {
+          //      pathImages: [quizAppImage],
+          //      nameProject: 'Quizzes Aplication',
+          //      link: 'https://brandox-quizz-app.netlify.app/',
+          // }
           // {
           //      pathImages: [minerdAppImage],
           //      nameProject: 'Minerd Teachers Aplication',
@@ -114,12 +107,12 @@ function MyProjects() {
           //      nameProject: 'Social Media Dashboard Layout',
           //      link: 'https://layouts-responsive.netlify.app/'
           // }
-          ,
-          {
-               pathImages: [takeNotesAppImage],
-               nameProject: 'Take Notes Aplication',
-               link: 'https://brandox-deploy-apps.netlify.app/notes-project/index.html'
-          }
+          // ,
+          // {
+          //      pathImages: [takeNotesAppImage],
+          //      nameProject: 'Take Notes Aplication',
+          //      link: 'https://brandox-deploy-apps.netlify.app/notes-project/index.html'
+          // }
      ];
 
 

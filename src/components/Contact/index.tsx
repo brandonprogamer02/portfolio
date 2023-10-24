@@ -22,7 +22,7 @@ function Contact() {
                          <img src={personaTelephoneImage} alt='personal telephone' className='w-25' />
                          <div className='d-flex flex-column flex-wrap justify-content-around align-items-center'>
                               <label style={{ color: 'white', marginBottom: 20 }}>Personal Number</label>
-                              <label style={{ color: 'white' }}>8497392210</label>
+                              <label style={{ color: 'white' }}>+1 849 739 2210</label>
                          </div>
                     </div>
                     <div className="col-12 col-md-6 my-5">
@@ -47,7 +47,7 @@ function Contact() {
                                    style={{ marginLeft: 15 }}
                               >
                                    <label style={{ color: 'white' }}>Home Phone</label>
-                                   <label style={{ color: 'white' }}>8095915207</label>
+                                   <label style={{ color: 'white' }}>+1 849 739 2210</label>
                               </div>
                          </div>
                     </div>
